@@ -1,10 +1,10 @@
 # Face_Detection
+
 Contiene el trabajo  con las librerias face_recognition y deepface, para detección y reconocimeinto facial.
 
 Se hizo una prueba técnica con deepface y face_recognition buscando desarrollar un sistema de reconocimiento facial, como caso de uso se tomo la autenticación en maquinas expendedoras, siendo el objetivo hacer a ahora la verificación de la persona con reconocimiento facial en vez de usar sus credenciales.
 
 Se hacen pruebas con el framework de deepface para encontrar la mejor conbinación de detectores, modelos de procesamiento y metricas de comparación para nuestra aplicación. Adicionalmente se hace un programa de detección con face_recognition
-
 
 ![](https://github.com/Juan-Good/Face_Detection/blob/main/images/caras.gif)
 
@@ -25,9 +25,6 @@ Los archivos:
 
  Hacen la detección de rostros en una imagen y lo comparan con los rostros de las imagenes en input, si detecta un rostro ajeno lo clasifica como desconocido. Adicionalmente reconocimiento_emociones.py reaaliza analisis de emociones sobre los rostros detectados
 
- ## Extracción de Rostros 
+## Extracción de Rostros
 
  Dentro de la carpeta imagen encontrara el archivo face_extractor.py, este le permite extraer rostros de las imagenes que encuentre en input, los rostros se almacenaran en la carpet faces(si la carpeta no existe el script la creara)
-
-
-
